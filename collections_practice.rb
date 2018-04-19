@@ -41,7 +41,7 @@ def sum_array(total)
 end
 
 def add_s(slaps)
-  new_array = []
-  slaps.each_with_index.collect{|s, index| new_array << "#{s}s #{index-1}"}
-  return new_array
+  #new_array = []
+  slaps.each_with_index.collect{|s, index| "#{s}s !#{index}"}
+
 end
