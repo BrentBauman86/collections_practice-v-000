@@ -32,6 +32,7 @@ def find_a(words)
     return true
   else
   false
+end
 }
 end
-end
+
