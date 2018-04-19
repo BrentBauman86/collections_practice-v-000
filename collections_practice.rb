@@ -26,7 +26,7 @@ end
 
 
 def find_a(words)
-  words.selects do |a|
+  words.select do |a|
     if a == a.start_with?
     return true
   else
