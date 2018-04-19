@@ -26,10 +26,10 @@ end
 
 
 def find_a(words)
-  start_with = []
-  words.select do |a|
-    if start_with << a.start_with?("a")
-    return start_with
+  starts_with = []
+  words.find do |a|
+    if  a == starts_with << a.start_with?("a")
+    return starts_with
   else
   false
 end
