@@ -15,12 +15,9 @@ def swap_elements(element)
 end
 
 def reverse_array(element)
-  element.sort! {|a, b| b <=> a}
+  element.sort! {|a, b| a <=> b}
 end
 
 def kesha_maker(element)
   new_array = []
 end
-
-
-  
