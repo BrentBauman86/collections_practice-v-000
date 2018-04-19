@@ -28,7 +28,7 @@ end
 def find_a(words)
   starts_with = []
   words.find do |a|
-    if  a == starts_with << a.start_with?("a")
+    if  a == a.start_with?("a")
     return starts_with
   else
   false
