@@ -21,4 +21,10 @@ end
 
 def kesha_maker(element)
   new_array = []
+  element.each{|cash| "#{cash}"  }
 end
+new_array
+end
+
+def find_a(words)
+  words.selects{|a| a == }
