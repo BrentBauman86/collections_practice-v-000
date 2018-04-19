@@ -30,12 +30,11 @@ def find_a(words)
   words.find do |a|
     if a.start_with?("a")
       starts_with << a.start_with?("a")
-     true
+     return starts_with
   else
  return  false
 end
 end
-starts_with
 end
 
 def sum_array(total)
