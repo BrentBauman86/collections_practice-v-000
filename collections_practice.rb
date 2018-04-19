@@ -39,3 +39,6 @@ end
 def sum_array(total)
   total.inject{|sum, n| sum + n}
 end
+
+def add_s(puts)
+  puts.each_with_index{|s, index| }
