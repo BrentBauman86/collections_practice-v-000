@@ -26,14 +26,15 @@ end
 
 
 def find_a(words)
-  #starts_with = []
+  starts_with = []
   words.find do |a|
-    if a.start_with?("a")
+    if start_with << a.start_with?("a")
     return true
   else
  return  false
 end
 end
+starts_with
 end
 
 def sum_array(total)
