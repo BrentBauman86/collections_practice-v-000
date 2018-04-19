@@ -5,3 +5,8 @@ end
 def sort_array_desc(integers)
   integers.sort {|a, b| b <=> a}
 end
+
+def sort_array_char_count(integer)
+  integer.sort {|a, b| integer.length}
+end
+ 
