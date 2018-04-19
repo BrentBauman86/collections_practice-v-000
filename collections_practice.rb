@@ -41,4 +41,4 @@ def sum_array(total)
 end
 
 def add_s(puts)
-  puts.each_with_index{|s, index| }
+  puts.each_with_index.collect{|s, index| }
