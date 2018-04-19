@@ -29,7 +29,7 @@ def find_a(words)
   starts_with = []
   words.find do |a|
     if  a == a.start_with?("a")
-    return 
+    return true
   else
   false
 end
