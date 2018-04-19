@@ -30,8 +30,9 @@ def find_a(words)
   words.selects{|a|
     if a == a.start_with?
     return true
+end
   else
   false
 }
 end
-end
+
