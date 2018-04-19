@@ -30,7 +30,7 @@ def find_a(words)
   words.find do |a|
     if a.start_with?("a")
       starts_with << a.start_with?("a")
-    return true
+     true
   else
  return  false
 end
