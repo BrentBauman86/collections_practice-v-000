@@ -20,7 +20,8 @@ element.reverse
 end
 
 def kesha_maker(element)
-  element.each{|cash| " $"  }
+  new_array = []
+  element.each{|cash|   }
 end
 
 
@@ -33,4 +34,8 @@ def find_a(words)
   false
 end
 end
+end
+
+def sum_array(total)
+  total.inject{|sum, n| sum + n}
 end
