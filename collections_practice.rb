@@ -20,7 +20,7 @@ element.reverse
 end
 
 def kesha_maker(element)
-  new_array = []
+
   element.each{|cash| "#{cash}"  }
 end
 
