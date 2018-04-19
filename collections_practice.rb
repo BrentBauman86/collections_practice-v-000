@@ -27,4 +27,9 @@ new_array
 end
 
 def find_a(words)
-  words.selects{|a| a == }
+  words.selects{|a| 
+    if a == a.start_with?
+    return true
+  else
+  false
+end}
