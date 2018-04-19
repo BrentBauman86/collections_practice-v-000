@@ -29,9 +29,9 @@ def find_a(words)
   #starts_with = []
   words.select do |a|
     if a == a.start_with?("a")
-    return starts_with
+    return true
   else
-  false
+ return  false
 end
 end
 end
