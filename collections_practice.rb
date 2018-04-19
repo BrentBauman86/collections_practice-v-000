@@ -34,6 +34,7 @@ def find_a(words)
   else
  return  false
 end
+return starts_with
 end
 end
 
