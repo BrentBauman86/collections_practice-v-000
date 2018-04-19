@@ -42,6 +42,6 @@ end
 
 def add_s(slaps)
   #new_array = []
-  slaps.each_with_index.collect{|s, index| "#{s}s #{index}"}
+  [1,2].each_with_index.collect{|s, index| "#{s}s #{index}"}
 
 end
