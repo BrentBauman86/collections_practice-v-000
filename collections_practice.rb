@@ -31,7 +31,7 @@ def find_a(words)
   binding.pry
   words.find do |a| starts_with.push a.start_with?("a")
     if a.start_with?("a")
-     return starts_with
+     return starts_with.join
   else
  return  false
 end
