@@ -29,7 +29,7 @@ end
 def find_a(words)
   words.select {|a| a.start_with?("a")}
 end
-end
+
 
 def sum_array(total)
   total.inject{|sum, n| sum + n}
