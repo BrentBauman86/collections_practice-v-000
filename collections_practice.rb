@@ -21,10 +21,12 @@ element.reverse
 end
 
 def kesha_maker(element)
-  new_array = []
-  element.each{|cash|   }
-end
 
+  element.collect do |cash|
+    cash[2] = "$"
+    cash
+end
+end
 
 def find_a(words)
   words.select {|a| a.start_with?("a")}
