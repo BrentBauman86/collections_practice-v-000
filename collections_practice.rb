@@ -36,6 +36,6 @@ def sum_array(total)
 end
 
 def add_s(slaps)
-  slaps.each_with_index.collect{|s, index| "#{s}s"}
+  slaps.each_with_index.collect{|s, index| index == 1 ? s : "#{s}s"}
 
 end
