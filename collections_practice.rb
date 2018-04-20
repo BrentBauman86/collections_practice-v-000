@@ -27,14 +27,7 @@ end
 
 
 def find_a(words)
-  starts_with = []
-  #binding.pry
-  words.find do |a| starts_with.push a.start_with?("a")
-    if a.start_with?("a")
-     return starts_with
-  else
- return  false
-end
+  words.select {|a| a.start_with?("a")}
 end
 end
 
